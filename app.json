@@ -22,11 +22,6 @@
     "android": {
       "versionCode": 1,
       "package": "com.ahmederrahali.smarteats",
-      "config": {
-        "googleMaps": {
-          "apiKey": "AIzaSyA31g_EOMTcVh4czj93pm0N6DufnI_KZRk"
-        }
-      },
       "permissions": [
         "CAMERA",
         "LOCATION",
