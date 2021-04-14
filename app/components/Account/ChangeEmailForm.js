@@ -40,11 +40,9 @@ export default function ChangeEmailForm(props) {
                         .then(() => {
                             setIsLoading(false);
                             setReloadUserInfo(true);
-                            toastRef.current.show("Email actualizado correctamente");//me da un undefined
+                            //toastRef.current.show("Email actualizado correctamente");//me da un undefined
                             setShowModal(false);
-                        })
-
-                        .catch(() => {
+                        }).catch(() => {
                             setErrors({ email: "Error al actualizar el email." });
                             setIsLoading(false);
                         });
