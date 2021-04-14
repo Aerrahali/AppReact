@@ -21,7 +21,6 @@
     },
     "android": {
       "versionCode": 1,
-      "package": "com.ahmederrahali.smarteats",
       "permissions": [
         "CAMERA",
         "LOCATION",
